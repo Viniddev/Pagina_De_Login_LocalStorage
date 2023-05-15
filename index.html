@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Page</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer=""></script>
+</head>
+<body>
+    <main >
+        <form action="" class="main" id="formulario">
+            <!--primeira parte / entrar-->
+            <fieldset class="conteiners">
+                <h1 class="titulo">Login</h1>
+                <div class="divisaoBackground">
+                    <section>
+                        <label class="indicadores">Digite seu login: </label>
+                        <input type="text" name="login" placeholder="Seu login aqui..." class="dataBox" id="log">   <br><br>
+                    </section>
+                    <section>
+                        <label class="indicadores">Digite sua senha: </label>
+                        <input type="text" name="senha" class="dataBox" id="primaryKey">   <br><br>
+                    </section>
+                </div>
+                <div id="botoesEntrada">
+                    <input type="submit" value="Entrar" class="entrar btn" id="entrar">
+                    <div id="botoes-secundarios">
+                        <button class="ponteiroRecuperar btn" id="recuperar"><a href="./html/RecuperarSenha.html" class="link">Esqueci minha senha</a></button>
+                        <button class="cadastrar btn" id="cadastrar"><a href="./html/Cadastrar.html" class="link">Cadastrar</a></button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
