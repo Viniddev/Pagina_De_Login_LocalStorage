@@ -19,7 +19,7 @@ btnentrar.addEventListener("submit", (evento) => {
         window.open("https://github.com/Viniddev")
     }else{
 
-        alert("login ou senha estão incorretos")
+        alert("login ou senha estão incorretos!\n Se for seu primeiro acesso clique em Cadastrar!")
 
         var campoLogin = document.querySelector("#log")
         var campoSenha = document.querySelector("#primaryKey")
